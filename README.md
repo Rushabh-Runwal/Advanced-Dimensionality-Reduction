@@ -19,7 +19,7 @@
 ---
 
 ### 3. Databricks Implementation
-- [Colab 3 - Databricks](INSERT_COLAB_3_LINK)
+- [Colab 3 - Databricks](https://colab.research.google.com/drive/1DrZabvOk_VG2KEXw3P68R--rq20NPQha?usp=sharing)
 
 ---
 
