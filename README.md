@@ -7,7 +7,7 @@
 ## Colab Notebooks
 
 ### 1. Image Dataset
-- [Colab 1 - Image Data](INSERT_COLAB_1_LINK)
+- [Colab 1 - Image Data](https://colab.research.google.com/drive/1V8k1s9i9fgvXFQLJs6ZWJJqwvDkwAAVd?usp=sharing)
 
 
 ---
