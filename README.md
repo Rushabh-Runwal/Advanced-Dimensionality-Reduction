@@ -1,22 +1,5 @@
 # Advanced Dimensionality Reduction Assignment
 
-## Overview
-This repository contains three Google Colab notebooks and their corresponding demonstrations for the **Advanced Dimensionality Reduction** course assignment. The assignment showcases various dimensionality reduction techniques applied to different datasets, including image, tabular, and medical datasets.
-
-### Dimensionality Reduction Techniques Covered:
-1. **Locally Linear Embedding (LLE)**
-2. **t-SNE (t-Distributed Stochastic Neighbor Embedding)**
-3. **ISOMAP**
-4. **UMAP (Uniform Manifold Approximation and Projection)**
-5. **MDS (Multi-Dimensional Scaling)**
-6. **Randomized PCA**
-7. **Kernel PCA**
-8. **Incremental PCA**
-9. **Factor Analysis**
-10. **Autoencoders**
-
----
-
 ##  [**Video Walkthrough**](HTTP://youtube.com)
 
 ---
@@ -24,35 +7,59 @@ This repository contains three Google Colab notebooks and their corresponding de
 ## Colab Notebooks
 
 ### 1. Image Dataset
-- **Dataset Used:** Faces or Digits dataset
-- **Link to Notebook:** [Colab 1 - Image Data](INSERT_COLAB_1_LINK)
-- **Techniques Demonstrated:**
-  - Locally Linear Embedding (LLE)
-  - t-SNE
-  - ISOMAP
-  - UMAP
-  - MDS
+- [Colab 1 - Image Data](INSERT_COLAB_1_LINK)
+
 
 ---
 
 ### 2. Tabular Dataset
-- **Dataset Used:** Iris dataset or similar
-- **Link to Notebook:** [Colab 2 - Tabular Data](INSERT_COLAB_2_LINK)
-- **Techniques Demonstrated:**
-  - Randomized PCA
-  - Kernel PCA
-  - Incremental PCA
-  - Factor Analysis
-  - Autoencoders
+- [Colab 2 - Tabular Data](INSERT_COLAB_2_LINK)
+
 
 ---
 
 ### 3. Databricks Implementation
-- **Dataset Used:** Medical or other large-scale datasets
-- **Link to Notebook:** [Colab 3 - Databricks](INSERT_COLAB_3_LINK)
-- **Techniques Demonstrated:**
-  - Overview of advanced dimensionality reduction with Databricks
-  - Use of interactive visualization tools for enhanced insights
+- [Colab 3 - Databricks](INSERT_COLAB_3_LINK)
+
+---
+
+## Introduction
+Dimensionality reduction is a crucial step in data analysis and machine learning, particularly when working with high-dimensional datasets. It involves reducing the number of input variables while retaining the essential structure and patterns of the data. This process helps improve computational efficiency, reduces storage requirements, and enhances data visualization.
+
+This project explores **Advanced Dimensionality Reduction (ADR)** techniques, showcasing their application to various datasets (image, tabular, and medical) using Python in Google Colab and Databricks. The notebooks and associated walkthroughs aim to demonstrate the utility, effectiveness, and computational trade-offs of these techniques.
+
+---
+
+## Overview of Dimensionality Reduction Techniques
+### 1. Locally Linear Embedding (LLE)
+- Captures non-linear structures in high-dimensional data by preserving local neighborhood relationships in the reduced space.
+
+### 2. t-SNE (t-Distributed Stochastic Neighbor Embedding)
+- A non-linear technique designed for interactive visualization, effectively highlighting clusters in data by preserving local relationships.
+
+### 3. ISOMAP
+- Extends Multi-Dimensional Scaling (MDS) by preserving global geometric structures while embedding data into a lower-dimensional space.
+
+### 4. UMAP (Uniform Manifold Approximation and Projection)
+- A computationally efficient technique that focuses on interactive visualization and maintaining local and global data structures.
+
+### 5. MDS (Multi-Dimensional Scaling)
+- Focuses on preserving the pairwise distance structure of the data when mapping to a lower-dimensional representation.
+
+### 6. Randomized PCA
+- Accelerates traditional PCA computations by using randomization techniques, making it suitable for large datasets.
+
+### 7. Kernel PCA
+- Extends PCA by incorporating kernel methods, enabling non-linear dimensionality reduction.
+
+### 8. Incremental PCA
+- A variation of PCA designed for large datasets, processing data in batches to minimize memory usage.
+
+### 9. Factor Analysis
+- A statistical method that identifies latent variables (factors) to explain observed data structures.
+
+### 10. Autoencoders
+- Neural network-based methods that learn compressed representations of input data, enabling non-linear dimensionality reduction.
 
 ---
 
@@ -64,23 +71,6 @@ Each notebook includes:
    - Computational efficiency
    - Effectiveness in preserving data structure
    - Visual clarity in lower dimensions.
-
----
-
-## Visualization Tools
-Interactive visualization tools like [UMAP Explorer](https://pair-code.github.io/understanding-umap/) have been utilized to demonstrate the results effectively.
-
----
-
-## How to Access
-1. Open the respective Colab notebook links provided above.
-2. Run the cells sequentially in Google Colab to replicate the results.
-
----
-
-## Submission
-- **GitHub Repository Link:** [Link to This Repository](INSERT_REPO_LINK)
-- **Video Walkthroughs:** Linked within each notebook.
 
 ---
 
