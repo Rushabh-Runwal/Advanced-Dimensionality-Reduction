@@ -13,7 +13,7 @@
 ---
 
 ### 2. Tabular Dataset
-- [Colab 2 - Tabular Data](INSERT_COLAB_2_LINK)
+- [Colab 2 - Tabular Data](https://colab.research.google.com/drive/17pW2AkjmdAF72ATTTi6o5KuTyLSXmQk4?usp=sharing)
 
 
 ---
