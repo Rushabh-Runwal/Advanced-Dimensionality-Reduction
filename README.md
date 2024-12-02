@@ -1,6 +1,6 @@
 # Advanced Dimensionality Reduction Assignment
 
-##  [**Video Walkthrough**](HTTP://youtube.com)
+##  [**Video Walkthrough**](https://youtu.be/d3GIy-Ix4pg)
 
 ---
 
